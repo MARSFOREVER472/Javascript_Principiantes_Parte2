@@ -1,2 +1,2 @@
 # Javascript_Principiantes_Parte2
-Segunda parte de la realización de los siguientes ejercicios usando JavaScript!
+Segunda parte de la aplicación de los siguientes ejercicios usando JavaScript!
