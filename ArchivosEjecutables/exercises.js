@@ -27,3 +27,18 @@ console.log(makeNewString('abcdef'));
 console.log(makeNewString('abc123abc123'));
 
 console.log(makeNewString('ab'));
+
+/*
+   Exercise 2:
+   -----------
+
+   Write a JavaScript program to extract the first half of a
+   string of even length.
+
+*/
+
+const primeraMitad = (str) => str.slice(0, str.length / 2);
+
+console.log(primeraMitad('temp'));
+console.log(primeraMitad('temple'));
+console.log(primeraMitad('temples'));
