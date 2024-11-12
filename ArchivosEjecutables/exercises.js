@@ -42,3 +42,18 @@ const primeraMitad = (str) => str.slice(0, str.length / 2);
 console.log(primeraMitad('temp'));
 console.log(primeraMitad('temple'));
 console.log(primeraMitad('temples'));
+
+/*
+   Exercise 3:
+   -----------
+
+   Write a JavaScript Program to concatenate 2 strings
+   except their first character.
+
+*/
+
+const concatenate = (str1, str2) =>
+   str1.slice(1) + str2.slice(1);
+
+console.log(concatenate('abc', 'def'));
+console.log(concatenate('Junior', 'Developer'));
