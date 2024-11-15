@@ -57,3 +57,18 @@ const concatenate = (str1, str2) =>
 
 console.log(concatenate('abc', 'def'));
 console.log(concatenate('Junior', 'Developer'));
+
+/*
+   Exercise 4:
+   -----------
+
+   Given 2 values, write a JavaScript program to find out
+   which 1 is nearest to 100.
+
+*/
+
+const closetTo100 = (a, b) => (100 - a) < (100 - b) ? a : b;
+
+console.log(closetTo100(99, 1));
+console.log(closetTo100(51, 49));
+console.log(closetTo100(50, 50));
